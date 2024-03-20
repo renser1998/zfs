@@ -4,7 +4,7 @@
    [root@zfs vagrant]# zpool create otus2 mirror /dev/sdd /dev/sde
    [root@zfs vagrant]# zpool create otus3 mirror /dev/sdf /dev/sdg
    [root@zfs vagrant]# zpool create otus4 mirror /dev/sdh /dev/sdi
-
+   
 [root@zfs vagrant]# zpool list
 NAME    SIZE  ALLOC   FREE  CKPOINT  EXPANDSZ   FRAG    CAP  DEDUP    HEALTH  ALTROOT
 otus1   480M   126K   480M        -         -     0%     0%  1.00x    ONLINE  -
