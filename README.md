@@ -84,9 +84,9 @@ config:
             /root/zpoolexport/fileb  ONLINE       0     0     0
 
 2.4 Просмотр параметров ипортированного пула
-[root@zfs ~]# zfs get available otus
-NAME  PROPERTY   VALUE  SOURCE
-otus  available  350M   -
+   [root@zfs ~]# zfs get available otus
+   NAME  PROPERTY   VALUE  SOURCE
+   otus  available  350M   -
 [root@zfs ~]# zfs get readonly otus
 NAME  PROPERTY  VALUE   SOURCE
 otus  readonly  off     default
