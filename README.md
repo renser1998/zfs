@@ -1,8 +1,9 @@
 1.1 Создаем zfs пулы
-[root@zfs vagrant]# zpool create otus1 mirror /dev/sdb /dev/sdc
-[root@zfs vagrant]# zpool create otus2 mirror /dev/sdd /dev/sde
-[root@zfs vagrant]# zpool create otus3 mirror /dev/sdf /dev/sdg
-[root@zfs vagrant]# zpool create otus4 mirror /dev/sdh /dev/sdi
+
+   [root@zfs vagrant]# zpool create otus1 mirror /dev/sdb /dev/sdc
+   [root@zfs vagrant]# zpool create otus2 mirror /dev/sdd /dev/sde
+   [root@zfs vagrant]# zpool create otus3 mirror /dev/sdf /dev/sdg
+   [root@zfs vagrant]# zpool create otus4 mirror /dev/sdh /dev/sdi
 
 [root@zfs vagrant]# zpool list
 NAME    SIZE  ALLOC   FREE  CKPOINT  EXPANDSZ   FRAG    CAP  DEDUP    HEALTH  ALTROOT
